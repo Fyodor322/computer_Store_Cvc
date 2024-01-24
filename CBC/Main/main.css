@@ -1,6 +1,6 @@
 body{
     /* font-family: 'Quicksand', sans-serif; */
-    font-family: 'Rubik', sans-serif;
+    font-family: "Rubik";
 }
 
 section{
@@ -24,7 +24,7 @@ section{
     border-bottom: 1px dashed;
 
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 20px;
     line-height: 24px;
 }
@@ -48,7 +48,7 @@ section{
 
 .head_Sec1_Block2 button{
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 20px;
     line-height: 24px;
     color: rgba(74, 77, 74, 1);
@@ -58,7 +58,7 @@ section{
 .head_Sec1_Block2 h5{
     font-size: 18px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 18px;
     line-height: 24px;
     color: rgba(74, 77, 74, 1);
@@ -66,15 +66,24 @@ section{
 }
 
 .head_Sec1_Block2_contacts{
-    margin: 30px 0 0 80px;
+    margin: 40px 0 31px 52px;
+    display: flex;
+}
 
-    font-family: 'Montserrat';
+.head_Sec1_Block2_contacts img{
+    width: 38px;
+    height: 37px;
+
+}
+
+.head_Sec1_Block2_contacts span{
+    font-family: 'arial';
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
     line-height: 37px;
 
-    color: #4A4D4A;
+    color: #4A4D4A; 
 }
 
 .head_Sec1_Block2_zakazatZvonok{
@@ -83,11 +92,11 @@ section{
     background-color: rgba(255, 175, 55, 1);
     border: 0px;
 
-    margin: 40px 0 0 40px;
+    margin: 40px 0 0 25px;
 }
 
 .head_Sec1_Block2_zakazatZvonok span{
-    font-family: 'Rubik';
+    /* font-family: 'Rubik'; */
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -120,10 +129,65 @@ section{
     display: flex;
 }
 
+.obj_contacts_head{
+    display: flex;
+    margin-left: 86px;
+    width: 148px;
+}
+
+.contacts_head:last-child{
+    margin: 0;
+}
+
+.obj_contacts_head h6, div {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 122%;
+    text-align: center;
+    margin: auto 0;
+    color: #4A4D4A;
+}
+
+.obj_contacts_head div{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 122%;
+    text-align: center;
+    margin: auto 0;
+}
+
+#WhatsAPP_contacts_head img{
+    width: 24px;
+    height: 24px;
+    margin: auto;
+}
+
+#mail_contacts_head img{
+    width: 24px;
+    height: 18px;
+    margin: auto;
+}
+
+#map_contacts_head img{
+    width: 20px;
+    height: 27px;
+    margin: auto;
+}
+
+#map_contacts_head h6{
+    font-size: 16px;
+}
+#map_contacts_head_smallText {
+    font-size: 12px !important;
+}
+
 .headSec3{
     width: 100%;
     background-color: rgba(240, 240, 255, 1);
     height: 60px;
+    margin-top: 40px;
 }
 
 .headSec3 div{
@@ -150,59 +214,102 @@ section{
 }
 
 .headSec3 h5{
-    text-transform: uppercase;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
-    color: rgba(74, 77, 74, 1);
-}
-.obj_contacts_head{
-    display: flex;
-    margin-left: 86px;
-    width: 148px;
-}
-
-.contacts_head:last-child{
-    margin: 0;
-}
-
-.obj_contacts_head h6 {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 122%;
-    text-align: center;
-    color: #4A4D4A;
-    margin: auto;
-}
-
-#WhatsAPP_contacts_head img{
-    width: 24px;
-    height: 24px;
-    margin: auto;
-}
-
-#mail_contacts_head img{
-    width: 24px;
-    height: 18px;
-    margin: auto;
-}
-
-#map_contacts_head img{
-    width: 20px;
-    height: 27px;
-    margin: auto;
-}
-
-#map_contacts_head h6{
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
-    font-size: 20px;
-    line-height: 149.3%;
+    font-size: 17px;
+    line-height: 21px;
+    text-transform: uppercase;
+    margin: 0;
     color: #4A4D4A;
-
 }
+
+.catalogAndSlider{
+    display: flex;
+    justify-content: left;
+}
+
+.catalog{
+    width: 448px;
+}
+
+.catalog_catalog{
+    height: 60px;
+    background-color: rgba(240, 240, 255, 1);
+    border-radius: 10px 10px 0 0;
+    text-align: left;
+    margin: auto 0;
+}
+
+.catalog_catalog h3{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 122%;
+
+    padding: 16px 0 0 30px;
+    color: #4A4D4A;
+}
+
+.catalog ul{
+    padding: 0;
+    margin: 0;
+    background-color: rgba(255, 251, 251, 1);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    /* width: 448px; */
+    /* display: none; */
+}
+
+.catalog li:first-child{
+    margin-top: 0;
+}
+
+.catalog li:first-child img{
+    padding-top: 10px;
+}
+
+.catalog li:first-child button{
+    padding-top: 10px;
+}
+
+.catalog li{
+    list-style: none;
+    margin: 14px 0;
+    display: flex;
+    cursor: pointer;
+}
+
+.catalog li img{
+    margin: auto 0;
+    padding: 0 10px 0 30px;
+}
+
+.catalog button{
+    border: 0px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: left;
+
+    color: #4A4D4A;
+}
+
+.catalog li span{
+    margin: auto 10px auto auto;
+    
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: left;
+
+    color: rgba(0, 21, 105, 0.6);
+}
+
 
