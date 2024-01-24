@@ -1,0 +1,208 @@
+body{
+    /* font-family: 'Quicksand', sans-serif; */
+    font-family: 'Rubik', sans-serif;
+}
+
+section{
+    margin: 0 auto;
+    width: 1400px;
+}
+
+.headSec1{
+    display: flex;
+}
+
+.headSec1 li{
+    margin-right: 28px;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.headSec1 li button{
+    background-color: white;
+    border: 0;
+    border-bottom: 1px dashed;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.headSec1 ul{
+    list-style: none;
+    display: flex;
+    padding-left: 73px;
+}
+
+.head_Sec1_Block2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.head_Sec1_Block2 li{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.head_Sec1_Block2 button{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(74, 77, 74, 1);
+    cursor: pointer;
+}
+
+.head_Sec1_Block2 h5{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(74, 77, 74, 1);
+    padding-left: 73px;
+}
+
+.head_Sec1_Block2_contacts{
+    margin: 30px 0 0 80px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+
+    color: #4A4D4A;
+}
+
+.head_Sec1_Block2_zakazatZvonok{
+    height: 37px;
+    width: 240px;
+    background-color: rgba(255, 175, 55, 1);
+    border: 0px;
+
+    margin: 40px 0 0 40px;
+}
+
+.head_Sec1_Block2_zakazatZvonok span{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    padding-top: 3px;
+}
+
+.headSec2{
+    display: flex;
+}
+
+.headSec2 input{
+    height: 40px;
+    width: 690px;
+    background: url(https://sun9-41.userapi.com/impg/EFQoh5_PSk5UUfCfHfxlah2EblUYA_1EoZBKXA/JgWE7u54-PQ.jpg?size=20x20&quality=96&sign=9414e86a439e5190d9f77fa750e9a89c&type=album);
+    background-repeat: no-repeat;
+    background-position: 93%;
+    outline: none;
+}
+
+.contacts_head{
+    display: flex;
+    margin-left: 80px;
+}
+
+.obj_contacts_head{
+    display: flex;
+}
+
+.headSec3{
+    width: 100%;
+    background-color: rgba(240, 240, 255, 1);
+    height: 60px;
+}
+
+.headSec3 div{
+    margin: auto;
+    padding-top: 1px;
+}
+
+.headSec3 ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.headSec3 li{
+    margin-right: 115px;
+}
+
+.headSec3 button{
+    height: 29px;
+    background-color: rgba(240, 240, 255, 1);
+    border: 0;
+    border-bottom: dashed 1px;
+}
+
+.headSec3 h5{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(74, 77, 74, 1);
+}
+.obj_contacts_head{
+    display: flex;
+    margin-left: 86px;
+    width: 148px;
+}
+
+.contacts_head:last-child{
+    margin: 0;
+}
+
+.obj_contacts_head h6 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 122%;
+    text-align: center;
+    color: #4A4D4A;
+    margin: auto;
+}
+
+#WhatsAPP_contacts_head img{
+    width: 24px;
+    height: 24px;
+    margin: auto;
+}
+
+#mail_contacts_head img{
+    width: 24px;
+    height: 18px;
+    margin: auto;
+}
+
+#map_contacts_head img{
+    width: 20px;
+    height: 27px;
+    margin: auto;
+}
+
+#map_contacts_head h6{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 149.3%;
+    color: #4A4D4A;
+
+}
+
